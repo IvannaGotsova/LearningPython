@@ -4,3 +4,7 @@ print(setExample)
 
 print(len(setExample))
 print(type(setExample))
+
+
+print(4 in setExample)
+print(4 not in setExample)
