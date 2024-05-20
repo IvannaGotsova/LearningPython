@@ -10,3 +10,16 @@ print(listExample[4])
 
 listExample[4] = 5
 print(listExample[4])
+
+listExample.append(21)
+listExample.append(22)
+listExample.append(23)
+listExample.append(24)
+listExample.append(25)
+print(listExample)
+
+listExample[20] = 20.5
+print(listExample)
+
+listExample[20:21] = [21]
+print(listExample)
