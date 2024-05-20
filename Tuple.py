@@ -8,3 +8,10 @@ tupleExample += tupleToAdd
 
 print(tupleExample)
 
+(one, two, three, *others) = tupleExample
+
+print(one)
+print(two)
+print(three)
+print(others)
+
