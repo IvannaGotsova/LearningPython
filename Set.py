@@ -8,3 +8,10 @@ print(type(setExample))
 
 print(4 in setExample)
 print(4 not in setExample)
+
+setExample.add(21)
+print(setExample)
+
+setToAdd = {22, 23, 24, 25}
+setExample.update(setToAdd)
+print(setExample)
