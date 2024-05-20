@@ -36,3 +36,12 @@ listExample.remove(0)
 print(listExample)
 listExample.pop(26)
 print(listExample)
+
+oddList = [x for x in listExample if x % 2 == 1]
+print(oddList)
+
+evenList = [x for x in listExample if x % 2 == 0]
+print(evenList)
+
+addList = [x + 0.5 for x in listExample]
+print(addList)
