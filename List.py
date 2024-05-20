@@ -23,3 +23,16 @@ print(listExample)
 
 listExample[20:21] = [21]
 print(listExample)
+
+listExample.insert(0, 0)
+print(listExample)
+
+listExample.insert(0, 0)
+print(listExample)
+listExample.append(25)
+print(listExample)
+
+listExample.remove(0)
+print(listExample)
+listExample.pop(26)
+print(listExample)
