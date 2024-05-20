@@ -15,3 +15,5 @@ print(two)
 print(three)
 print(others)
 
+print(tupleExample.count(2))
+print(tupleExample.index(19))
