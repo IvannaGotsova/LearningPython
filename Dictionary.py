@@ -16,3 +16,17 @@ print(dictionaryExample.values())
 dictionaryExample['city'] = "Sofia"
 print(dictionaryExample)
 
+print(dictionaryExample.items())
+
+for x in dictionaryExample:
+  print(x)
+
+for x in dictionaryExample.keys():
+  print(x)
+
+for x in dictionaryExample:
+  print(dictionaryExample[x])
+
+for x in dictionaryExample.values():
+  print(x)
+
