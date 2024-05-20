@@ -45,3 +45,6 @@ print(evenList)
 
 addList = [x + 0.5 for x in listExample]
 print(addList)
+
+print(listExample.count(0))
+print(listExample.index(0))
