@@ -1,3 +1,7 @@
+def names (**names):
+    for key, value in names.items():
+        print("Hello " + value)
+
 def add (*numbers):
     sum = 0
     numbers = list(numbers)
@@ -6,5 +10,5 @@ def add (*numbers):
         sum += x
     print(sum)
 
-
-add(3, 4, 5)
+names (first="Ivan", second="Petar", third="Dimitar", fourth="Stoqn", fifth="Philip", sixth="Stephan")
+add (3, 4, 5)
