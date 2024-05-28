@@ -1,9 +1,16 @@
 from tkinter import *
 
 
+def PrintVariable():
+    print(variableExample.get())
+
+
 windowExample = Tk()
 
-checkBoxExample = Checkbutton(text="Check Box", font=("Ariel", 22, "italic"), fg="blue", bg="black")
+variableExample = BooleanVar()
+
+checkBoxExample = Checkbutton(text="Check Box", variable=variableExample, onvalue=True, offvalue=False,
+                              command=PrintVariable, font=("Ariel", 22, "italic"), fg="blue", bg="black")
 checkBoxExample.pack()
 
 windowExample.mainloop()
