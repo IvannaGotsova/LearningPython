@@ -1,8 +1,8 @@
 from tkinter import *
 
-windowsExample = Tk()
+windowExample = Tk()
 
 labelExample = Label(text="Label Example", font=("Ariel", 22, "italic"), fg="blue", bg="black")
-labelExample.pack()
+labelExample.place(x=0, y=5)
 
-windowsExample.mainloop()
+windowExample.mainloop()
