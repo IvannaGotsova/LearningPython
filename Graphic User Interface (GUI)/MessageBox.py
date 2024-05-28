@@ -37,7 +37,6 @@ buttonWarning.pack()
 buttonError = Button(text="Button Info", command=error, font=("Ariel", 22, "italic"), fg="blue", bg="black")
 buttonError.pack()
 
-
 buttonYesNoCancel = Button(text="Button Yes No Cancel", command=yesNoCancel, font=("Ariel", 22, "italic"), fg="blue", bg="black")
 buttonYesNoCancel.pack()
 
