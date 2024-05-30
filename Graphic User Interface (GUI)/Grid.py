@@ -5,11 +5,13 @@ from tkinter import ttk
 windowExample = Tk()
 tabs = ttk.Notebook(windowExample)
 
+
 tabOne = ttk.Frame(tabs)
 tabTwo = ttk.Frame(tabs)
 tabThree = ttk.Frame(tabs)
 tabFour = ttk.Frame(tabs)
 tabFive = ttk.Frame(tabs)
+
 
 tabs.add(tabOne, text='Tab One')
 tabs.add(tabTwo, text='Tab Two')
