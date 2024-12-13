@@ -6,3 +6,10 @@ matrix = [[1, 2, 3, 4],
           [0, 0, 0, 0]]
 
 print(csc_matrix(matrix))
+print(csc_matrix(matrix).data)
+print(csc_matrix(matrix).count_nonzero())
+
+matrix = csc_matrix(matrix)
+matrix.eliminate_zeros()
+
+print(csc_matrix(matrix).tocsr())
