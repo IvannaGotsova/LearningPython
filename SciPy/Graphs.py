@@ -13,4 +13,12 @@ print(dijkstra(matrix_graphs, return_predecessors=True, indices=0))
 print(floyd_warshall(matrix_graphs, return_predecessors=True))
 print(bellman_ford(matrix_graphs, return_predecessors=True, indices=0))
 print(depth_first_order(matrix_graphs, 1))
+
+matrix = [[1, 2, 3, 4],
+          [5, 6, 7, 8],
+          [-1, -1, -1, -1],
+          [0, 0, 0, 0]]
+
+matrix_graphs = csr_matrix(matrix)
+
 print(breadth_first_order(matrix_graphs, 1))
